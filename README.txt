@@ -1,5 +1,5 @@
 
-Travelfast (Luis Leal, 2018)
+# Travelfast (Luis Leal, 2018)
 
 Travelfast solves the traveling salesperson problem using the simulated annealing optimization algorithm. Travelfast is written in python/cython.
 As simulated annealing is a greedy algorithm, the package is run using the MPI framework in order to increase the likelihood of
