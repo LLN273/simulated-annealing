@@ -1,0 +1,24 @@
+# This project has python as the main language
+language: python
+
+# Run things with Python 3.
+python:
+  - "3.6"
+
+# Don't send email notifications for everything...
+notifications:
+  email: false
+
+# We get a bare virtual machine
+# We need to install our dependencies
+install:
+  - pip install numpy
+  - pip install pytest
+  - pip install time
+  - pip install sys
+  - pip install geopy.distance
+  - pip install mpi4py
+
+# Run the tests
+script:
+- pytest
