@@ -43,7 +43,7 @@ Example:
  Elapsed time: 5.6 sec
 ```
 
-## Dependencies:
+## Dependencies
 simann_optimize_cy3: cythonized library that implements the simulated annealing optimization algorithm.
 
 
