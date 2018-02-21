@@ -40,7 +40,7 @@ Example:
  Distance (Km): 2915.2
  ITINERARY: Stockholm --> Kiruna --> Gothenburg --> Malmo --> Stockholm
 
- Elapsed time: 13.4 sec
+ Elapsed time: 5.6 sec
 ```
 
 ## Dependencies:
