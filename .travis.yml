@@ -14,10 +14,7 @@ notifications:
 install:
   - pip install numpy
   - pip install pytest
-  - pip install time
-  - pip install sys
   - pip install geopy.distance
-  - pip install mpi4py
 
 # Run the tests
 script:
