@@ -3,7 +3,7 @@ language: python
 
 # Run things with Python 3.
 python:
-  - "3.6"
+  - "3.5"
 
 # Don't send email notifications for everything...
 notifications:
