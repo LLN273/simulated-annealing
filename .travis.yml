@@ -14,7 +14,6 @@ notifications:
 install:
   - pip install numpy
   - pip install pytest
-  - pip install geopy.distance
 
 # Run the tests
 script:
