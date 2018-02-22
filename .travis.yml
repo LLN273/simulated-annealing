@@ -3,7 +3,7 @@ language: python
 
 # Run things with Python 3.
 python:
-  - "3.5"
+  - "3.6"
 
 # Don't send email notifications for everything...
 notifications:
@@ -14,7 +14,7 @@ notifications:
 install:
   - pip install numpy
   - pip install pytest
+  - pip install mpi4py
 
 # Run the tests
-script:
-- pytest
+script: sh run_travis.sh
