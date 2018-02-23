@@ -12,6 +12,7 @@ notifications:
 # We get a bare virtual machine
 # We need to install our dependencies
 install:
+  - easy_install distribute
   - pip install numpy
   - pip install pytest
   - pip install mpi4py
