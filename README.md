@@ -44,6 +44,7 @@ Example:
 ```
 
 ## Dependencies
+gofaster.py: processes input data, calls optimization algorithm, and manages communications between MPI processes
 simann_optimize_cy3: cythonized library that implements the simulated annealing optimization algorithm.
 
 
