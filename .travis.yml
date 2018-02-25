@@ -16,6 +16,7 @@ install:
   - pip install pytest-runner
   - pip install numpy
   - pip install pytest
+  - pip install geopy
 
 # Run the tests
 script: pytest
