@@ -3,8 +3,6 @@ language: python
 
 # Run things with Python 3.
 python:
-  - "3.4"
-  - "3.5"
   - "3.6"
 
 # Don't send email notifications for everything...
@@ -19,7 +17,7 @@ install:
   - pip3 install numpy
   - pip3 install pytest
   - pip3 install geopy
-  - pip3 install mpich
+  - brew install mpich
   - pip3 install mpi4py
 
 # Run the tests
