@@ -19,7 +19,7 @@ install:
   - pip install numpy
   - pip install pytest
   - pip install geopy
-  - pip install libopenmpi-dev
+  - brew install mpich
   - pip install mpi4py
 
 # Run the tests
