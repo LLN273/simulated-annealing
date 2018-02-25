@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/LLN273/simulated-annealing.svg?branch=master)](https://travis-ci.org/LLN273/simulated-annealing)
+
 
 # Travelfast 
 
