@@ -19,7 +19,8 @@ install:
   - pip install numpy
   - pip install pytest
   - pip install geopy
-  - pip install https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.0.tar.gz
+  - sudo apt install libopenmpi-dev
+  - pip install mpi4py
 
 # Run the tests
 script: pytest
