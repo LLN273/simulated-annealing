@@ -1,0 +1,5 @@
+City,latitude,longitude
+Stockholm,59°19′46″N,18°4′7″E
+Gothenburg,57°42′N,11°58′E
+Kiruna,67°51′N,20°13′E
+Malmo,55°36′21″N,13°02′09″E

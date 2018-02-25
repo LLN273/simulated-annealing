@@ -1,0 +1,11 @@
+City,latitude,longitude
+Stockholm,59°19′46″N,18°4′7″E
+Falun,60°36′26″N,15°37′52″E
+Gothenburg,57°42′N,11°58′E
+Kiruna,67°51′N,20°13′E
+Lulea,65°35′4″N,22°9′14″E
+Malmo,55°36′21″N,13°02′09″E
+Trollhattan,58°17′N,12°17′E
+Umea,63°49′30″N,20°15′50″E
+Uppsala,59°51′29″N,17°38′41″E
+Orebro,59°16′26″N,15°12′27″E
