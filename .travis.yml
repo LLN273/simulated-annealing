@@ -13,9 +13,11 @@ notifications:
 # We need to install our dependencies
 install:
   - easy_install distribute
+  - pip install pytest-runner
   - pip install numpy
   - pip install pytest
   - pip install mpi4py
 
 # Run the tests
-script: sh run_travis.sh
+script: 
+  -py.test
