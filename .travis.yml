@@ -19,8 +19,7 @@ install:
   - pip install numpy
   - pip install pytest
   - pip install geopy
-  - brew install mpich
-  - pip install mpi4py
+  - pip install https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.0.tar.gz
 
 # Run the tests
 script: pytest
