@@ -28,7 +28,7 @@ install:
   - cd build
   - ../configure --prefix=/opt/glibc-2.23
   - make -j4
-  - sudo make install
+  - make install
   - export LD_LIBRARY_PATH=/opt/glibc-2.23/lib
   - brew install mpich
   - pip3 install mpi4py
