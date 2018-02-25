@@ -15,12 +15,12 @@ notifications:
 # We need to install our dependencies
 install:
   - easy_install distribute
-  - pip install pytest-runner
-  - pip install numpy
-  - pip install pytest
-  - pip install geopy
-  - brew install mpich
-  - pip install mpi4py
+  - pip3 install pytest-runner
+  - pip3 install numpy
+  - pip3 install pytest
+  - pip3 install geopy
+  - pip3 install mpich
+  - pip3 install mpi4py
 
 # Run the tests
 script: pytest
