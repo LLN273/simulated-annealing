@@ -17,7 +17,8 @@ install:
   - pip install numpy
   - pip install pytest
   - pip install geopy
-  - easy_install mpi4py
+  - yum install mpich-devel mpich-autoload
+  - pip install mpi4py
 
 # Run the tests
 script: pytest
