@@ -1,10 +1,9 @@
-from distutils.core import setup	
-from Cython.Build import cythonize	
+from setuptools import setup
 
-setup(
-    ext_modules = cythonize("simann_optimize_cy3.pyx")
-)
-
-
-
-
+setup(name='travelfast',
+      version='0.1',
+      description=' Solves traveling salesperson problem using the simulated annealing optimization algorithm.',
+      url='https://github.com/LLN273/simulated-annealing/travelfast',
+      author='Luis Leal',,,
+      packages=['travelfast'],
+      zip_safe=False)
