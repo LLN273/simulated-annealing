@@ -17,6 +17,7 @@ install:
   - pip3 install numpy
   - pip3 install pytest
   - pip3 install geopy
+  - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   - brew install mpich
   - pip3 install mpi4py
 
