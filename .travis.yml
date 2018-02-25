@@ -1,16 +1,15 @@
-# This project has python as the main language
+# Language
 language: python
 
-# Run things with Python 3.
+# Run with Python 3.
 python:
   - "3.6"
 
-# Don't send email notifications for everything...
+# Email notifications
 notifications:
   email: false
 
-# We get a bare virtual machine
-# We need to install our dependencies
+# Install dependencies
 install:
   - easy_install distribute
   - pip3 install pytest-runner
@@ -21,9 +20,8 @@ install:
   - PATH="$HOME/.linuxbrew/bin:$PATH"
   - export MANPATH="$(brew --prefix)/share/man:$MANPATH"
   - export INFOPATH="$(brew --prefix)/share/info:$INFOPATH"
-  - brew install mpich
-  - apt-get install libc6
+  - sudo apt-get install libc6
   - pip3 install mpi4py
 
-# Run the tests
+# Run pytests
 script: pytest
